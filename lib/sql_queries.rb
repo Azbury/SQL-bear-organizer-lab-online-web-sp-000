@@ -19,7 +19,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "hicolor = SELECT MAX(color) FROM bears"
+  "SELECT MAX(color) FROM bears"
   "SELECT COUNT(hicolor) FROM bears"
 end
 
